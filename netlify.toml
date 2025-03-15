@@ -10,4 +10,5 @@
   TZ = "UTC"  # Set to preferred timezone
 
 [context.production.environment]
+  GO_VERSION = "1.22"
   HUGO_ENV = "production"
